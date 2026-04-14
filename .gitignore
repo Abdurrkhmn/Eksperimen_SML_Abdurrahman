@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data files (jika terlalu besar)
+*.csv
+*.pkl
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Abaikan semua file .pkl
+*.pkl
+
+# Abaikan seluruh folder artifacts
+mlartifacts/
+
+# Abaikan file model besar lainnya
+best_credit_risk_model.pkl
