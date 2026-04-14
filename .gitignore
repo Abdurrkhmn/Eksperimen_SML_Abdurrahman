@@ -21,3 +21,7 @@ mlartifacts/
 
 # Abaikan file model besar lainnya
 best_credit_risk_model.pkl
+
+echo "*.pkl" >> .gitignore
+echo "mlartifacts/" >> .gitignore
+echo "Membangun_model/*.pkl" >> .gitignore
