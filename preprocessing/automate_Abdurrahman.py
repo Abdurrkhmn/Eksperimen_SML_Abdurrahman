@@ -105,7 +105,7 @@ def preprocess_data(input_path, output_dir):
 
 if __name__ == "__main__":
     # Tentukan path relatif terhadap root repository
-    input_data_path = os.path.join('data_raw', 'credit_risk_dataset.csv')
+    input_data_path = os.path.join('namadataset_raw', 'credit_risk_dataset.csv')
     output_data_dir = os.path.join('preprocessing', 'credit_risk_dataset_preprocessed')
     preprocess_data(input_data_path, output_data_dir)
     
