@@ -1,11 +1,11 @@
-# Virtual environment
+# Abaikan virtual environment
 .venv/
 __pycache__/
 *.pyc
 
 # Data files (jika terlalu besar)
-*.csv
-*.pkl
+# *.csv
+# *.pkl
 
 # Jupyter checkpoint
 .ipynb_checkpoints/
@@ -14,7 +14,7 @@ __pycache__/
 .env
 
 # Abaikan semua file .pkl
-*.pkl
+# *.pkl
 
 # Abaikan seluruh folder artifacts
 mlartifacts/
@@ -25,3 +25,10 @@ best_credit_risk_model.pkl
 echo "*.pkl" >> .gitignore
 echo "mlartifacts/" >> .gitignore
 echo "Membangun_model/*.pkl" >> .gitignore
+
+# Tapi JANGAN abaikan folder dan file penting
+!.github/
+!.github/workflows/
+!.github/workflows/automate-preprocessing.yml
+!namadataset_raw/
+!preprocessing/
