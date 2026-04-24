@@ -2,8 +2,12 @@ name: Automate Data Preprocessing
 
 on:
   push:
+    branches:
+      - Master
+      - main
     paths:
       - 'namadataset_raw/**'
+      - 'preprocessing/automate_Abdurrahman.py'
   workflow_dispatch:
 
 permissions:
