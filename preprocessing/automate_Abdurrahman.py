@@ -108,3 +108,5 @@ if __name__ == "__main__":
     input_data_path = os.path.join('data_raw', 'credit_risk_dataset.csv')
     output_data_dir = os.path.join('preprocessing', 'credit_risk_dataset_preprocessed')
     preprocess_data(input_data_path, output_data_dir)
+    
+    #push ke github
